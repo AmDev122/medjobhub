@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #eaeaec;
+    padding: 10px 0 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 60px;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .nav-links li a:hover {
+    color: #18ec3b;
+  }
+
+
+/*About section style*/
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the about section */
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Styles for media items */
+  .media-item {
+    width: 45%; /* Adjust as needed */
+  }
+  
+  .media-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-section iframe { /*removed the media-item class for the div containing iframe*/
+    margin-left: 2%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+
+  .info-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .info-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .info-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-column {
+    padding: 20px;
+  }
+  
+  .right-column {
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .right-column img{
+    width: 60px;
+    height: auto;
+  }
+  
+  .info-box:hover .right-column {
+    opacity: 1;
+  }
+  
+
+
+
+
+  /*footer*/
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #f7f2f2;
+    color: #0a0909;
+  }
+
+  .footer-column img {
+    max-width: 80%; /* Adjust the size of the company logo */
+    height: auto;
+    border-radius: 50%;
+}
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer-column a {
+    color:rgba(17, 16, 16, 0.9);
+    text-decoration: none;/*removes the underline caused due to href*/
+  }
+
+  .footer-column a:hover {
+    text-decoration: underline;
+}
+  
+  .app-links {
+    display: flex;
+  }
+  
+  .app-links .app-store-link,
+  .app-links .play-store-link {
+    display: inline-block;
+    width: 45%; /* Adjust width as needed */
+    padding: 10px;
+    background-color: #070707;
+    color: #f3ecec;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .app-links .app-store-link:last-child,
+  .app-links .play-store-link:last-child {
+    margin-right: 0;
+  }

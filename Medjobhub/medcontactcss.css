@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #eaeaec;
+    padding: 10px 0 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .containerhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-left: 5px;
+    max-height: 60px;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .nav-links li a:hover {
+    color: #18ec3b;
+  }
+
+
+/*contact us*/
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+.contact-section { 
+    width: 50%;
+    float: left;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*icons of social media*/
+
+.icon-box1 {
+    width: 80px; /* Adjust the size of the icon box */
+    height: 40px; /* Adjust the size of the icon box */
+    background-color: #007bff; /* Adjust the background color */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.8%;
+}
+
+.icon-box2 {
+    width: 80px; /* Adjust the size of the icon box */
+    height: 40px; /* Adjust the size of the icon box */
+    background-color: #0ab426; /* Adjust the background color */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.1%;
+}
+
+.icon-box3 {
+    width: 80px; /* Adjust the size of the icon box */
+    height: 40px; /* Adjust the size of the icon box */
+    background-color: #e90b0b; /* Adjust the background color */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.icon-box i {
+    color: #fff; /* Adjust the icon color */
+    font-size: 24px; /* Adjust the icon size */
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    width: calc(100% - 22px); /* Adjusted for datepicker button */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* New CSS for the right section */
+.image-section {
+    width: 50%;
+    float: left;
+    text-align: center; /* Align image to center */
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.image-section img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%; /* Make the image fill the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%;
+}
